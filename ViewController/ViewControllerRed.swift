@@ -1,29 +1,23 @@
 //
-//  ViewControllerBlue.swift
+//  ViewControllerRed.swift
 //  ViewController
 //
-//  Created by STEVEN HOBERG on 9/28/22.
+//  Created by STEVEN HOBERG on 9/30/22.
 //
 
 import UIKit
 
-class ViewControllerBlue: UIViewController {
-    @IBOutlet weak var blueLable: UILabel!
-    @IBOutlet weak var blueText: UITextField!
-    var name : String = ""
+class ViewControllerRed: UIViewController {
 
+    @IBOutlet weak var textOutRed: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
 
         // Do any additional setup after loading the view.
     }
-    
-    @IBAction func blueButton(_ sender: UIButton) {
-        blueLable.text! = name
+    override func viewDidDisappear(_ animated: Bool) {
+        performSegue(withIdentifier: unwindwhite, sender: nil)
     }
-    
 
     /*
     // MARK: - Navigation

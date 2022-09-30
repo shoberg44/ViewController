@@ -19,6 +19,7 @@
 		E6208A7728E3287A0005B092 /* ViewController1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6208A7628E3287A0005B092 /* ViewController1ViewController.swift */; };
 		E636F58C28E4763E0028E66A /* ViewControllerGreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E636F58B28E4763E0028E66A /* ViewControllerGreen.swift */; };
 		E636F59028E47D830028E66A /* ViewControllerBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E636F58F28E47D830028E66A /* ViewControllerBlue.swift */; };
+		E6BE1D1D28E71FAB002CF0D1 /* ViewControllerRed.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BE1D1C28E71FAB002CF0D1 /* ViewControllerRed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		E6208A7628E3287A0005B092 /* ViewController1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1ViewController.swift; sourceTree = "<group>"; };
 		E636F58B28E4763E0028E66A /* ViewControllerGreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerGreen.swift; sourceTree = "<group>"; };
 		E636F58F28E47D830028E66A /* ViewControllerBlue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerBlue.swift; sourceTree = "<group>"; };
+		E6BE1D1C28E71FAB002CF0D1 /* ViewControllerRed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRed.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				E6208A4A28E323A60005B092 /* ViewController.swift */,
 				E6208A7628E3287A0005B092 /* ViewController1ViewController.swift */,
 				E6208A4C28E323A60005B092 /* Main.storyboard */,
+				E6BE1D1C28E71FAB002CF0D1 /* ViewControllerRed.swift */,
 				E636F58F28E47D830028E66A /* ViewControllerBlue.swift */,
 				E636F58B28E4763E0028E66A /* ViewControllerGreen.swift */,
 				E6208A4F28E323A60005B092 /* Assets.xcassets */,
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6208A4B28E323A60005B092 /* ViewController.swift in Sources */,
+				E6BE1D1D28E71FAB002CF0D1 /* ViewControllerRed.swift in Sources */,
 				E636F58C28E4763E0028E66A /* ViewControllerGreen.swift in Sources */,
 				E636F59028E47D830028E66A /* ViewControllerBlue.swift in Sources */,
 				E6208A7728E3287A0005B092 /* ViewController1ViewController.swift in Sources */,
