@@ -32,7 +32,7 @@ class ViewController1ViewController: UIViewController {
     //this function is performed automaticly when performing segue is called
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "BlueSegue"{
-            let nvc = segue.destination as! ViewControllerBlue //force dsowncasts as ViewControllerBLue nvc stands for next view controller
+            let nvc = segue.destination as! ViewControllerBlue //force dsowncasts as ViewControllerBlue nvc stands for next view controller
             nvc.name = textOutlet.text! //alows access within desitnation
         }
     }
